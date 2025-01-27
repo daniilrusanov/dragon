@@ -3,7 +3,7 @@ import "../css/index.css";
 
 import React from "react";
 
-export const Testimonals = () => {
+export const Testimonials = () => {
     return (
         <div></div>
     );

@@ -8,59 +8,57 @@ import imgOldDragons2 from "../img/S2_OldDragons2.jpeg";
 
 export const OldDragons = () => {
     return (
-        <section className="div-2" id="elders">
-            <div className="div-3">
-                <h2 className="heading">Старейшини драконів</h2>
-                <p className="text">Досліджуйте таємниці стародавніх драконів</p>
+        <section className="oldDragons" id="elders">
+            <div className="oldDragons-header">
+                <h2 className="oldDragons-header-h1 h1">Старейшини драконів</h2>
+                <p className="oldDragons-header-text text">Досліджуйте таємниці стародавніх драконів</p>
             </div>
-            <div className="content-5">
-                <div className="portfolio-list">
-                    <div className="row">
-                        <article className="div-4">
-                            <img
-                                className="placeholder-image-3"
-                                alt="Placeholder"
-                                src={imgOldDragons1}
-                            />
-                            <div className="content-2">
-                                <h3 className="heading-2">Дракон Громовержець</h3>
-                                <p className="text-wrapper">
-                                    Сила та мудрість, що вражають уяву.
-                                </p>
-                                <div className="tags">
-                                    <span className="text-only-false text-3">Мудрість</span>
-                                    <span className="text-only-false text-4">Сила</span>
-                                    <span className="text-only-false-2 text-4">Легенда</span>
-                                </div>
-                                <button className="style-link-small button-3">
-                                    Переглянути проект
-                                </button>
+            <div className="oldDragons-container">
+                <div className="oldDragons-container-main">
+                    <article className="oldDragons-container-main-column-1">
+                        <img
+                            className="oldDragons-container-main-image"
+                            alt="Placeholder"
+                            src={imgOldDragons1}
+                        />
+                        <div className="oldDragons-container-main-content">
+                            <h3 className="oldDragons-container-main-content-h2 h2">Дракон Громовержець</h3>
+                            <p className="oldDragons-container-main-content-text text">
+                                Сила та мудрість, що вражають уяву.
+                            </p>
+                            <div className="oldDragons-container-main-content-tags">
+                                <span className="tag text">Мудрість</span>
+                                <span className="tag text">Сила</span>
+                                <span className="tag text">Легенда</span>
                             </div>
-                        </article>
-                        <article className="div-4">
-                            <img
-                                className="placeholder-image-3"
-                                alt="Placeholder"
-                                src={imgOldDragons2}
-                            />
-                            <div className="content-2">
-                                <h3 className="heading-2">Дракон Вогняний</h3>
-                                <p className="text-wrapper">
-                                    Вогонь, що приносить тепло та світло.
-                                </p>
-                                <div className="tags">
-                                    <span className="text-only-false text-4">Вогонь</span>
-                                    <span className="text-only-false text-4">Тепло</span>
-                                    <span className="text-only-false-2 text-4">Сила</span>
-                                </div>
-                                <button className="style-link-small-2 button">
-                                    Переглянути проект
-                                </button>
+                            <button className="oldDragons-container-main-content-button button3">
+                                Переглянути проект
+                            </button>
+                        </div>
+                    </article>
+                    <article className="oldDragons-container-main-column-2">
+                        <img
+                            className="oldDragons-container-main-image"
+                            alt="Placeholder"
+                            src={imgOldDragons2}
+                        />
+                        <div className="oldDragons-container-main-content">
+                            <h3 className="oldDragons-container-main-content-h2 h2">Дракон Вогняний</h3>
+                            <p className="oldDragons-container-main-content-text text">
+                                Вогонь, що приносить тепло та світло.
+                            </p>
+                            <div className="oldDragons-container-main-content-tags">
+                                <span className="tag text">Вогонь</span>
+                                <span className="tag text">Тепло</span>
+                                <span className="tag text">Сила</span>
                             </div>
-                        </article>
-                    </div>
+                            <button className="oldDragons-container-main-content-button button3">
+                                Переглянути проект
+                            </button>
+                        </div>
+                    </article>
                 </div>
-                <button className="style-secondary-wrapper button-4">
+                <button className="oldDragons-container-button button1">
                     Переглянути всі
                 </button>
             </div>
