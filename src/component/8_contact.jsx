@@ -1,6 +1,4 @@
-import "../css/reset.css";
-import "../css/index.css";
-
+import '../css/8_contact.css';
 import React from "react";
 
 export const Contact = () => {

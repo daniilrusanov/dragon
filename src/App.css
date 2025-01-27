@@ -51,8 +51,15 @@
     --heading-h6-letter-spacing: 0px;
     --heading-h6-line-height: 140%;
 
+    /*
+    Text style
+    Tags style
+    Links style
+    Button text style
+    */
+}
 
-
+/*
     --text-large-semi-bold-font-family: "Roboto", Helvetica;
     --text-large-semi-bold-font-size: 20px;
     --text-large-semi-bold-font-style: normal;
@@ -107,4 +114,4 @@
     --text-tiny-normal-font-weight: 400;
     --text-tiny-normal-letter-spacing: 0px;
     --text-tiny-normal-line-height: 150%;
-}
+*/

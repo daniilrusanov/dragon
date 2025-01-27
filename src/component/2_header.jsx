@@ -1,6 +1,4 @@
-import "../css/reset.css";
-import "../css/index.css";
-
+import '../css/2_header.css';
 import React from "react";
 
 import imgHeader1 from "../img/S1_header1.jpeg";

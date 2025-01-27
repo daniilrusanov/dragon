@@ -1,6 +1,4 @@
-import "../css/reset.css";
-import "../css/index.css";
-
+import '../css/3_oldDragons.css';
 import React from "react";
 
 import imgOldDragons1 from "../img/S2_OldDragons1.jpeg";
@@ -10,7 +8,7 @@ export const OldDragons = () => {
     return (
         <section className="oldDragons" id="elders">
             <div className="oldDragons-header">
-                <h2 className="oldDragons-header-h1 h1">Старейшини драконів</h2>
+                <h2 className="oldDragons-header-h2 h2">Старейшини драконів</h2>
                 <p className="oldDragons-header-text text">Досліджуйте таємниці стародавніх драконів</p>
             </div>
             <div className="oldDragons-container">
@@ -22,7 +20,7 @@ export const OldDragons = () => {
                             src={imgOldDragons1}
                         />
                         <div className="oldDragons-container-main-content">
-                            <h3 className="oldDragons-container-main-content-h2 h2">Дракон Громовержець</h3>
+                            <h3 className="oldDragons-container-main-content-h3 h3">Дракон Громовержець</h3>
                             <p className="oldDragons-container-main-content-text text">
                                 Сила та мудрість, що вражають уяву.
                             </p>
@@ -43,7 +41,7 @@ export const OldDragons = () => {
                             src={imgOldDragons2}
                         />
                         <div className="oldDragons-container-main-content">
-                            <h3 className="oldDragons-container-main-content-h2 h2">Дракон Вогняний</h3>
+                            <h3 className="oldDragons-container-main-content-h3 h3">Дракон Вогняний</h3>
                             <p className="oldDragons-container-main-content-text text">
                                 Вогонь, що приносить тепло та світло.
                             </p>

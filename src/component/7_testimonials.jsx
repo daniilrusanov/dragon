@@ -1,6 +1,4 @@
-import "../css/reset.css";
-import "../css/index.css";
-
+import '../css/7_testimonals.css';
 import React from "react";
 
 export const Testimonials = () => {

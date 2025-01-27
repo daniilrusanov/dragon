@@ -1,4 +1,4 @@
-/*------ CSS for the Body ------*/
+/*------ CSS for the Text ------*/
 .h1 {}
 .h2 {}
 .h3 {}
@@ -12,6 +12,9 @@
 .button2 {}
 .button3 {}
 .tag {}
+
+/*------ CSS for the Body ------*/
+body {}
 
 /*------ CSS for the Navbar Section ------*/
 .navbar {}
@@ -42,7 +45,7 @@
 /*------ CSS for the Old Dragons Section ------*/
 .oldDragons {}
 .oldDragons-header {}
-.oldDragons-header-h1 {}
+.oldDragons-header-h2 {}
 .oldDragons-header-text {}
 .oldDragons-container {}
 .oldDragons-container-main {}
@@ -50,15 +53,43 @@
 .oldDragons-container-main-column-2 {}
 .oldDragons-container-main-image {}
 .oldDragons-container-main-content {}
-.oldDragons-container-main-content-h2 {}
+.oldDragons-container-main-content-h3 {}
 .oldDragons-container-main-content-text {}
 .oldDragons-container-main-content-tags {}
 .oldDragons-container-main-content-button {}
 .oldDragons-container-button {}
 
 /*------ CSS for the Legend Section ------*/
+.legend {}
+.legend-h2 {}
+.legend-text {}
+
 /*------ CSS for the Abilities Section ------*/
+.abilities {}
+.abilities-container {}
+.abilities-container-column-1 {}
+.abilities-container-column-2 {}
+.abilities-container-h2 {}
+.abilities-container-text {}
+.abilities-container-button {}
+.abilities-container-button-img {}
+
 /*------ CSS for the Team Section ------*/
 /*------ CSS for the Testimonials Section ------*/
 /*------ CSS for the Contact Section ------*/
+
 /*------ CSS for the Footer Section ------*/
+.footer {}
+.footer-upper-section {}
+.footer-upper-section-left {}
+.footer-upper-section-right {}
+.footer-upper-section-left-logo {}
+.footer-upper-section-left-links {}
+.footer-upper-section-right-h4 {}
+.footer-upper-section-right-input {}
+.footer-upper-section-right-button {}
+.footer-upper-section-right-text {}
+.footer-middle-section {}
+.footer-lower-section {}
+.footer-lower-section-left {}
+.footer-lower-section-right {}
