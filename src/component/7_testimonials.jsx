@@ -2,8 +2,8 @@ import '../css/7_testimonals.css';
 import React from "react";
 
 import logo from "../img/logo.svg";
-import imgPerson1 from "../img/S6_person1.jeg";
-import imgPerson2 from "../img/S6_person2.jeg";
+import imgPerson1 from "../img/S6_person1.jpg";
+import imgPerson2 from "../img/S6_person2.jpg";
 
 export const Testimonials = () => {
     return (

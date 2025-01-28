@@ -6,7 +6,7 @@ import imgOldDragons2 from "../img/S2_OldDragons2.jpeg";
 
 export const OldDragons = () => {
     return (
-        <section className="oldDragons" id="elders">
+        <section className="oldDragons" id="oldDragons">
             <div className="oldDragons-header">
                 <h2 className="oldDragons-header-h2 h2">Старейшини драконів</h2>
                 <p className="oldDragons-header-text text">Досліджуйте таємниці стародавніх драконів</p>
@@ -30,7 +30,7 @@ export const OldDragons = () => {
                                 <span className="tag text">Легенда</span>
                             </div>
                             <button className="oldDragons-container-main-content-button button3">
-                                Переглянути проект
+                                Переглянути проект →
                             </button>
                         </div>
                     </article>
@@ -51,7 +51,7 @@ export const OldDragons = () => {
                                 <span className="tag text">Сила</span>
                             </div>
                             <button className="oldDragons-container-main-content-button button3">
-                                Переглянути проект
+                                Переглянути проект →
                             </button>
                         </div>
                     </article>

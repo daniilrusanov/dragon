@@ -17,9 +17,9 @@ function App() {
             <Legend />
             <Abilities />
             <Team />
-            <Testimonials />
-            <Contact />
-            <Footer />
+            {/*<Testimonials />*/}
+            {/*<Contact />*/}
+            {/*<Footer />*/}
         </>
     );
 }

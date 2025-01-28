@@ -1,0 +1,72 @@
+/*------ CSS for the Header Section ------*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #f5f5f5;
+    height: 100vh;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+}
+
+.header-container-column-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.header-container-h1 {
+    margin-bottom: 50px;
+    font-weight: bold;
+    gap: 50px;
+}
+
+.header-container-text {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.header-container-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.header-container-column-2 {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.header-container-column-2_1,
+.header-container-column-2_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-container-column-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.header-container-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.header-container-buttons-1 {}
+.header-container-buttons-2 {}

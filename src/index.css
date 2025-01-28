@@ -1,144 +1,162 @@
 /*------ CSS for the Text ------*/
-.h1 {}
-.h2 {}
-.h3 {}
-.h4 {}
-.h5 {}
-.h6 {}
+.h1 {
+    font-size: var(--heading-desktop-h1-font-size);
+    font-family: var(--heading-h1-font-family);
+    font-style: var(--heading-h1-font-style);
+    font-weight: var(--heading-h1-font-weight);
+    letter-spacing: var(--heading-h1-letter-spacing);
+    line-height: var(--heading-h1-line-height);
+}
+
+.h2 {
+    font-size: var(--heading-desktop-h2-font-size);
+    font-family: var(--heading-h2-font-family);
+    font-style: var(--heading-h2-font-style);
+    font-weight: var(--heading-h2-font-weight);
+    letter-spacing: var(--heading-h2-letter-spacing);
+    line-height: var(--heading-h2-line-height);
+}
+
+.h3 {
+    font-size: var(--heading-desktop-h3-font-size);
+    font-family: var(--heading-h3-font-family);
+    font-style: var(--heading-h3-font-style);
+    font-weight: var(--heading-h3-font-weight);
+    letter-spacing: var(--heading-h3-letter-spacing);
+    line-height: var(--heading-h3-line-height);
+}
+
+.h4 {
+    font-size: var(--heading-desktop-h4-font-size);
+    font-family: var(--heading-h4-font-family);
+    font-style: var(--heading-h4-font-style);
+    font-weight: var(--heading-h4-font-weight);
+    letter-spacing: var(--heading-h4-letter-spacing);
+    line-height: var(--heading-h4-line-height);
+}
+
+.h5 {
+    font-size: var(--heading-desktop-h5-font-size);
+    font-family: var(--heading-h5-font-family);
+    font-style: var(--heading-h5-font-style);
+    font-weight: var(--heading-h5-font-weight);
+    letter-spacing: var(--heading-h5-letter-spacing);
+    line-height: var(--heading-h5-line-height);
+}
+
+.h6 {
+    font-size: var(--heading-desktop-h6-font-size);
+    font-family: var(--heading-h6-font-family);
+    font-style: var(--heading-h6-font-style);
+    font-weight: var(--heading-h6-font-weight);
+    letter-spacing: var(--heading-h6-letter-spacing);
+    line-height: var(--heading-h6-line-height);
+}
+
+.text {
+    font-family: var(--text-font-family);
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+    line-height: var(--text-line-height);
+}
+
+.tag {
+    background-color: var(--tag-background-color);
+    color: var(--tag-color);
+    padding: var(--tag-padding);
+    border-radius: var(--tag-border-radius);
+}
+
+.link-text {
+    font-family: var(--link-text-font-family);
+    font-size: var(--link-text-font-size);
+    color: var(--link-text-color);
+}
+
+.button1 {
+    border: var(--button1-border);
+    color: var(--button1-color);
+    padding: var(--button1-padding);
+    border-radius: var(--button1-border-radius);
+    background: none;
+}
+
+.button2 {
+    background-color: var(--button2-background-color);
+    color: var(--button2-color);
+    padding: var(--button2-padding);
+    border-radius: var(--button2-border-radius);
+    border: none;
+}
+
+.button3 {
+    color: var(--button3-color);
+    padding: var(--button3-padding);
+    border-radius: var(--button3-border-radius);
+    background: none;
+    border: none;
+}
+
+
 .img {}
-.text {}
-.link-text {}
-.button1 {}
-.button2 {}
-.button3 {}
-.tag {}
+
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    .h1 {
+        font-size: var(--heading-tablet-h1-font-size);
+    }
+    .h2 {
+        font-size: var(--heading-tablet-h2-font-size);
+    }
+    .h3 {
+        font-size: var(--heading-tablet-h3-font-size);
+    }
+    .h4 {
+        font-size: var(--heading-tablet-h4-font-size);
+    }
+    .h5 {
+        font-size: var(--heading-tablet-h5-font-size);
+    }
+    .h6 {
+        font-size: var(--heading-tablet-h6-font-size);
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+    .h1 {
+        font-size: var(--heading-mobile-h1-font-size);
+    }
+
+    .h2 {
+        font-size: var(--heading-mobile-h2-font-size);
+    }
+
+    .h3 {
+        font-size: var(--heading-mobile-h3-font-size);
+    }
+
+    .h4 {
+        font-size: var(--heading-mobile-h4-font-size);
+    }
+
+    .h5 {
+        font-size: var(--heading-mobile-h5-font-size);
+    }
+
+    .h6 {
+        font-size: var(--heading-mobile-h6-font-size);
+    }
+}
 
 /*------ CSS for the Body ------*/
-body {}
-
-/*------ CSS for the Navbar Section ------*/
-.navbar {}
-.navbar-container {}
-.navbar-container-content {}
-.navbar-container-content-text {}
-.navbar-container-content-text-links {}
-.navbar-logo {}
-.drop-button {}
-.navbar-container-content-text-button {}
-.navbar-container-content-text-buttons-1 {}
-.navbar-container-content-text-buttons-2 {}
-
-/*------ CSS for the Header Section ------*/
-.header {}
-.header-container {}
-.header-container-column-1 {}
-.header-container-column-2 {}
-.header-container-column-2_1 {}
-.header-container-column-2_2 {}
-.header-container-text-h1 {}
-.header-container-text {}
-.header-container-buttons {}
-.header-container-buttons-1 {}
-.header-container-buttons-2 {}
-.header-container-image {}
-
-/*------ CSS for the Old Dragons Section ------*/
-.oldDragons {}
-.oldDragons-header {}
-.oldDragons-header-h2 {}
-.oldDragons-header-text {}
-.oldDragons-container {}
-.oldDragons-container-main {}
-.oldDragons-container-main-column-1 {}
-.oldDragons-container-main-column-2 {}
-.oldDragons-container-main-image {}
-.oldDragons-container-main-content {}
-.oldDragons-container-main-content-h3 {}
-.oldDragons-container-main-content-text {}
-.oldDragons-container-main-content-tags {}
-.oldDragons-container-main-content-button {}
-.oldDragons-container-button {}
-
-/*------ CSS for the Legend Section ------*/
-.legend {}
-.legend-h2 {}
-.legend-text {}
-
-/*------ CSS for the Abilities Section ------*/
-.abilities {}
-.abilities-container {}
-.abilities-container-column-1 {}
-.abilities-container-column-2 {}
-.abilities-container-h2 {}
-.abilities-container-text {}
-.abilities-container-button {}
-.abilities-container-button-img {}
-
-/*------ CSS for the Team Section ------*/
-.team {}
-.team-header {}
-.team-header-h2 {}
-.team-header-text {}
-.team-container {}
-.team-container-column1 {}
-.team-container-column2 {}
-.team-container-column-upper {}
-.team-container-column-lower {}
-.team-container-column-left {}
-.team-container-column-right {}
-.team-container-column-left-img {}
-.team-container-column-right-h4 {}
-.team-container-column-right-text1 {}
-.team-container-column-right-text2 {}
-.team-container-column-right-social {}
-.team-container-column-right-social-linkedIn {}
-.team-container-column-right-social-twitter {}
-.team-container-column-right-social-net {}
-.team-footer {}
-.team-footer-h3 {}
-.team-footer-text {}
-.team-container-button {}
-
-/*------ CSS for the Testimonials Section ------*/
-.testimonials {}
-.testimonials-container {}
-.testimonials-container-logo {}
-.testimonials-container-logo-img {}
-.testimonials-container-comment {}
-.testimonials-container-comment-h3 {}
-.testimonials-container-person-img {}
-.testimonials-container-comment-h4 {}
-.testimonials-container-comment-text {}
-.testimonials-container-manage {}
-.testimonials-container-manage-button {}
-.testimonials-container-manage-indicator {}
-
-/*------ CSS for the Contact Section ------*/
-.contact {}
-.contact-left {}
-.contact-right {}
-.contact-left-h2 {}
-.contact-left-text {}
-.contact-right-item-row1 {}
-.contact-right-item-row2 {}
-.contact-right-item-row-svg {}
-.contact-right-item-row-h4 {}
-.contact-right-item-row-text {}
-.contact-img {}
-.contact-img-photo {}
-
-/*------ CSS for the Footer Section ------*/
-.footer {}
-.footer-upper-section {}
-.footer-upper-section-left {}
-.footer-upper-section-right {}
-.footer-upper-section-left-logo {}
-.footer-upper-section-left-links {}
-.footer-upper-section-right-h4 {}
-.footer-upper-section-right-input {}
-.footer-upper-section-right-button {}
-.footer-upper-section-right-text {}
-.footer-middle-section {}
-.footer-lower-section {}
-.footer-lower-section-left {}
-.footer-lower-section-right {}
+body {
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    color: var(--body-color);
+    background-color: var(--body-background-color);
+    margin: var(--body-margin);
+    padding: var(--body-padding);
+    line-height: var(--body-line-height);
+}

@@ -2,14 +2,14 @@ import '../css/2_header.css';
 import React from "react";
 
 import imgHeader1 from "../img/S1_header1.jpeg";
-import imgHeader2 from "../img/S1_header4.jpeg";
+import imgHeader2 from "../img/S1_header2.jpeg";
 import imgHeader3 from "../img/S1_header3.jpeg";
-import imgHeader4 from "../img/S1_header2.jpeg";
+import imgHeader4 from "../img/S1_header4.jpeg";
 
 export const Header = () => {
     return (
         <header className="header">
-            <div className="header-container">
+            <div className="header-container" id="header">
                 <div className="header-container-column-1">
                     <h1 className="header-container-h1 h1">
                         Ласкаво просимо у світ літніх драконів!

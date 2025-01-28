@@ -1,0 +1,70 @@
+/*------ CSS for the Team Section ------*/
+
+.team {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.team-header, .team-footer {
+    text-align: left;
+    margin-bottom: 50px;
+    padding-left: 120px;
+}
+
+.team-header-h2, .team-footer-h3 {
+    margin-bottom: 10px;
+}
+
+.team-header-text, .team-footer-text {
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.team-container-column {
+    display: flex;
+    flex-direction: column;
+    width: 48%; /* Two columns */
+}
+
+.team-container-card {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.team-container-card-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+}
+
+.team-container-card {
+    display: flex;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.team-container-card-text1 {
+    margin-bottom: 10px;
+}
+
+.team-container-card-text2 {
+    margin-bottom: 5px;
+}
+
+.team-container-card-social {
+    display: flex;
+    gap: 10px;
+}
+

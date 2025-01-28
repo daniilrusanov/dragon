@@ -2,6 +2,9 @@ import '../css/8_contact.css';
 import React from "react";
 
 import imgContact from "../img/S7_contacts.jpeg";
+import imgContactMail from "../img/S7_contactMail.svg";
+import imgContactPhone from "../img/S7_contactPhone.svg";
+import imgContactGeo from "../img/S7_contactGeo.svg";
 
 export const Contact = () => {
     return (

@@ -1,9 +1,16 @@
 import '../css/1_navbar.css';
 import React from "react";
+import { useState } from "react";
 
 import logo from "../img/logo.svg";
 
 export const Navbar = () => {
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+
+    const toggleDropdown = () => {
+        setDropdownOpen(!dropdownOpen);
+    };
+
     return (
         <nav className="navbar">
             <div className="navbar-container">
@@ -29,12 +36,14 @@ export const Navbar = () => {
                                 <span className="link-text-2">Унікальні здібності</span>
                             </a>
                             <div className="dropdown">
-                                <a href="#" className="drop-button">Інше</a>
-                                <div className="dropdown-content">
-                                    <a href="#team" className="link-text">Команда</a>
-                                    <a href="#testimonals" className="link-text">Відгуки</a>
-                                    <a href="#contacts" className="link-text">Контакти</a>
-                                </div>
+                                <button onClick={toggleDropdown} className="drop-button">Інше &#9660;</button>
+                                {dropdownOpen && (
+                                    <div className="dropdown-content">
+                                        <a href="#team" className="link-text">Команда</a>
+                                        <a href="#testimonals" className="link-text">Відгуки</a>
+                                        <a href="#contacts" className="link-text">Контакти</a>
+                                    </div>
+                                )}
                             </div>
                         </div>
 

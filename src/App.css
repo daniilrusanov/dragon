@@ -1,4 +1,5 @@
 :root {
+    /* Headers styles */
     --heading-desktop-h1-font-size: 56px;
     --heading-desktop-h2-font-size: 48px;
     --heading-desktop-h3-font-size: 40px;
@@ -51,67 +52,44 @@
     --heading-h6-letter-spacing: 0px;
     --heading-h6-line-height: 140%;
 
-    /*
-    Text style
-    Tags style
-    Links style
-    Button text style
-    */
-}
+    /* Text style */
+    --text-font-family: "Roboto", Helvetica, sans-serif;
+    --text-font-size: 16px;
+    --text-color: #333;
+    --text-line-height: 1.5;
 
-/*
-    --text-large-semi-bold-font-family: "Roboto", Helvetica;
-    --text-large-semi-bold-font-size: 20px;
-    --text-large-semi-bold-font-style: normal;
-    --text-large-semi-bold-font-weight: 400;
-    --text-large-semi-bold-letter-spacing: 0px;
-    --text-large-semi-bold-line-height: 150%;
-    --text-medium-normal-font-family: "Roboto", Helvetica;
-    --text-medium-normal-font-size: 18px;
-    --text-medium-normal-font-style: normal;
-    --text-medium-normal-font-weight: 400;
-    --text-medium-normal-letter-spacing: 0px;
-    --text-medium-normal-line-height: 150%;
-    --text-regular-link-font-family: "Roboto", Helvetica;
-    --text-regular-link-font-size: 16px;
-    --text-regular-link-font-style: normal;
-    --text-regular-link-font-weight: 400;
-    --text-regular-link-letter-spacing: 0px;
-    --text-regular-link-line-height: 150%;
-    --text-regular-normal-font-family: "Roboto", Helvetica;
-    --text-regular-normal-font-size: 16px;
-    --text-regular-normal-font-style: normal;
-    --text-regular-normal-font-weight: 400;
-    --text-regular-normal-letter-spacing: 0px;
-    --text-regular-normal-line-height: 150%;
-    --text-regular-semi-bold-font-family: "Roboto", Helvetica;
-    --text-regular-semi-bold-font-size: 16px;
-    --text-regular-semi-bold-font-style: normal;
-    --text-regular-semi-bold-font-weight: 400;
-    --text-regular-semi-bold-letter-spacing: 0px;
-    --text-regular-semi-bold-line-height: 150%;
-    --text-small-link-font-family: "Roboto", Helvetica;
-    --text-small-link-font-size: 14px;
-    --text-small-link-font-style: normal;
-    --text-small-link-font-weight: 400;
-    --text-small-link-letter-spacing: 0px;
-    --text-small-link-line-height: 150%;
-    --text-small-normal-font-family: "Roboto", Helvetica;
-    --text-small-normal-font-size: 14px;
-    --text-small-normal-font-style: normal;
-    --text-small-normal-font-weight: 400;
-    --text-small-normal-letter-spacing: 0px;
-    --text-small-normal-line-height: 150%;
-    --text-small-semi-bold-font-family: "Roboto", Helvetica;
-    --text-small-semi-bold-font-size: 14px;
-    --text-small-semi-bold-font-style: normal;
-    --text-small-semi-bold-font-weight: 400;
-    --text-small-semi-bold-letter-spacing: 0px;
-    --text-small-semi-bold-line-height: 150%;
-    --text-tiny-normal-font-family: "Roboto", Helvetica;
-    --text-tiny-normal-font-size: 12px;
-    --text-tiny-normal-font-style: normal;
-    --text-tiny-normal-font-weight: 400;
-    --text-tiny-normal-letter-spacing: 0px;
-    --text-tiny-normal-line-height: 150%;
-*/
+    /* Tag style */
+    --tag-background-color: #f0f0f0;
+    --tag-color: #333;
+    --tag-padding: 5px 10px;
+    --tag-border-radius: 4px;
+
+    /* Link style */
+    --link-text-font-family: var(--text-font-family);
+    --link-text-font-size: var(--text-font-size);
+    --link-text-color: #000000;
+
+    /* Button styles */
+    --button1-border: 1px solid #000;
+    --button1-color: #000;
+    --button1-padding: 10px 20px;
+    --button1-border-radius: 4px;
+
+    --button2-background-color: #000;
+    --button2-color: #fff;
+    --button2-padding: 10px 20px;
+    --button2-border-radius: 4px;
+
+    --button3-color: #000;
+    --button3-padding: 10px 20px;
+    --button3-border-radius: 4px;
+
+    /* Body styles */
+    --body-font-family: "Roboto", Helvetica, sans-serif;
+    --body-font-size: 16px;
+    --body-color: #333;
+    --body-background-color: #fff;
+    --body-margin: 0;
+    --body-padding: 0;
+    --body-line-height: 1.5;
+}

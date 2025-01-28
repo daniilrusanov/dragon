@@ -6,103 +6,146 @@ import imgTeam2 from "../img/S5_team4.jpeg";
 import imgTeam3 from "../img/S5_team3.jpeg";
 import imgTeam4 from "../img/S5_team2.jpeg";
 
+import imgTeamLinkedIm from "../img/S5_teamLinkedIn.svg";
+import imgTeamTwitter from "../img/S5_teamTwitter.svg";
+import imgTeamNet from "../img/S5_teamNet.svg";
 
 export const Team = () => {
     return (
         <section className="team">
             <div className="team-header">
-                <h1 className="team-header-h2 h2">Наша команда</h1>
+                <h2 className="team-header-h2 h2">Наша команда</h2>
                 <span className="team-header-text text">Ми - команда професіоналів, захоплених драконами.</span>
             </div>
 
             <div className="team-container">
-                <div className="team-container-column-1">
-                    <div className="team-container-column-upper">
-                        <div className="team-container-column-left">
-                            <img
-                                className="team-container-column-left-img img"
-                                alt="Placeholder"
-                                src={imgTeam1}
-                            />
-                        </div>
-                        <div className="team-container-column-right">
-                            <h4 className="team-container-column-right-h4 h4">Русанов Данііл</h4>
-                            <span className="team-container-column-right-text1 text">Керівник проєкту</span>
-                            <span className="team-container-column-right-text2 text">З досвідом у сфері фентезі, Данііл веде команду до успіху.</span>
-                            <div className="team-container-column-right-social">
-                                <button className="team-container-column-right-social-linkedIn linkedIn">Facebook</button>
-                                <button className="team-container-column-right-social-twitter Twitter">Instagram</button>
-                                <button className="team-container-column-right-social-net net">Net</button>
+                <div className="team-container-column">
+                    <div className="team-container-card">
+                        <img
+                            className="team-container-card-img img"
+                            alt="Placeholder"
+                            src={imgTeam1}
+                        />
+                        <div className="team-container-card-content">
+                            <h4 className="team-container-card-h4 h4">Русанов Данііл</h4>
+                            <div className="team-container-card-text1 text">Керівник проєкту</div>
+                            <div className="team-container-card-text2 text">З досвідом у сфері фентезі, Данііл веде команду до успіху.</div>
+                            <div className="team-container-card-social">
+                                <img
+                                    className="team-container-card-social-linkedIn linkedIn"
+                                    alt="Placeholder"
+                                    src={imgTeamLinkedIm}
+                                />
+                                <img
+                                    className="team-container-card-social-twitter Twitter"
+                                    alt="Placeholder"
+                                    src={imgTeamTwitter}
+                                />
+                                <img
+                                    className="team-container-card-social-net ne"
+                                    alt="Placeholder"
+                                    src={imgTeamNet}
+                                />
                             </div>
                         </div>
                     </div>
-                    <div className="team-container-column-lower">
-                        <div className="team-container-column-left">
-                            <img
-                                className="team-container-column-left-img img"
-                                alt="Placeholder"
-                                src={imgTeam1}
-                            />
-                        </div>
-                        <div className="team-container-column-right">
-                            <h4 className="team-container-column-right-h4 h4">Русанов Данііл</h4>
-                            <span className="team-container-column-right-text1 text">Розробник</span>
-                            <span className="team-container-column-right-text2 text">Данііл відповідає за розробку сайту</span>
-                            <div className="team-container-column-right-social">
-                                <button className="team-container-column-right-social-linkedIn linkedIn">Facebook</button>
-                                <button className="team-container-column-right-social-twitter Twitter">Instagram</button>
-                                <button className="team-container-column-right-social-net net">Net</button>
+                    <div className="team-container-card">
+                        <img
+                            className="team-container-card-img img"
+                            alt="Placeholder"
+                            src={imgTeam2}
+                        />
+                        <div className="team-container-card-content">
+                            <h4 className="team-container-card-h4 h4">Русанов Данііл</h4>
+                            <div className="team-container-card-text1 text">Розробник</div>
+                            <div className="team-container-card-text2 text">Данііл відповідає за розробку сайту</div>
+                            <div className="team-container-card-social">
+                                <img
+                                    className="team-container-card-social-linkedIn linkedIn"
+                                    alt="Placeholder"
+                                    src={imgTeamLinkedIm}
+                                />
+                                <img
+                                    className="team-container-card-social-twitter Twitter"
+                                    alt="Placeholder"
+                                    src={imgTeamTwitter}
+                                />
+                                <img
+                                    className="team-container-card-social-net ne"
+                                    alt="Placeholder"
+                                    src={imgTeamNet}
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="team-container-column-2">
-                    <div className="team-container-column-upper">
-                        <div className="team-container-column-left">
-                            <img
-                                className="team-container-column-left-img img"
-                                alt="Placeholder"
-                                src={imgTeam1}
-                            />
-                        </div>
-                        <div className="team-container-column-right">
-                            <h4 className="team-container-column-right-h4 h4">Русанов Данііл</h4>
-                            <span className="team-container-column-right-text1 text">Дизайнер проєкту</span>
-                            <span className="team-container-column-right-text2 text">Данііл створює візуальні концепції, які захоплюють і надихають.</span>
-                            <div className="team-container-column-right-social">
-                                <button className="team-container-column-right-social-linkedIn linkedIn">Facebook</button>
-                                <button className="team-container-column-right-social-twitter Twitter">Instagram</button>
-                                <button className="team-container-column-right-social-net net">Net</button>
+                <div className="team-container-column">
+                    <div className="team-container-card">
+                        <img
+                            className="team-container-card-img img"
+                            alt="Placeholder"
+                            src={imgTeam3}
+                        />
+                        <div className="team-container-card-content">
+                            <h4 className="team-container-card-h4 h4">Русанов Данііл</h4>
+                            <div className="team-container-card-text1 text">Дизайнер проєкту</div>
+                            <div className="team-container-card-text2 text">Данііл створює візуальні концепції, які захоплюють і надихають.</div>
+                            <div className="team-container-card-social">
+                                <img
+                                    className="team-container-card-social-linkedIn linkedIn"
+                                    alt="Placeholder"
+                                    src={imgTeamLinkedIm}
+                                />
+                                <img
+                                    className="team-container-card-social-twitter Twitter"
+                                    alt="Placeholder"
+                                    src={imgTeamTwitter}
+                                />
+                                <img
+                                    className="team-container-card-social-net ne"
+                                    alt="Placeholder"
+                                    src={imgTeamNet}
+                                />
                             </div>
                         </div>
                     </div>
-                    <div className="team-container-column-lower">
-                        <div className="team-container-column-left">
-                            <img
-                                className="team-container-column-left-img img"
-                                alt="Placeholder"
-                                src={imgTeam1}
-                            />
-                        </div>
-                        <div className="team-container-column-right">
-                            <h4 className="team-container-column-right-h4 h4">Твоє ім'я</h4>
-                            <span className="team-container-column-right-text1 text">Маркетолог</span>
-                            <span className="team-container-column-right-text2 text">Саме ти можеш замість керівника робити всю рутинну роботу!</span>
-                            <div className="team-container-column-right-social">
-                                <button className="team-container-column-right-social-linkedIn linkedIn">Facebook</button>
-                                <button className="team-container-column-right-social-twitter Twitter">Instagram</button>
-                                <button className="team-container-column-right-social-net net">Net</button>
+                    <div className="team-container-card">
+                        <img
+                            className="team-container-card-img img"
+                            alt="Placeholder"
+                            src={imgTeam4}
+                        />
+                        <div className="team-container-card-content">
+                            <h4 className="team-container-card-h4 h4">Твоє ім'я</h4>
+                            <div className="team-container-card-text1 text">Маркетолог</div>
+                            <div className="team-container-card-text2 text">Саме ти можеш замість керівника робити всю рутинну роботу!</div>
+                            <div className="team-container-card-social">
+                                <img
+                                    className="team-container-card-social-linkedIn linkedIn"
+                                    alt="Placeholder"
+                                    src={imgTeamLinkedIm}
+                                />
+                                <img
+                                    className="team-container-card-social-twitter Twitter"
+                                    alt="Placeholder"
+                                    src={imgTeamTwitter}
+                                />
+                                <img
+                                    className="team-container-card-social-net ne"
+                                    alt="Placeholder"
+                                    src={imgTeamNet}
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="team-footer">
-                <h3 className="team-footer-h3 h3">Ми наймаємо!</h3>
-                <span className="team-footer-text text">Приєднуйтесь до нас для захоплюючих можливостей.</span>
-                <button className="team-footer-button button1">Відкриті вакансії</button>
+                <div className="team-footer">
+                    <h3 className="team-footer-h3 h3">Ми наймаємо!</h3>
+                    <div className="team-footer-text text">Приєднуйтесь до нас для захоплюючих можливостей.</div>
+                    <button className="team-footer-button button1">Відкриті вакансії</button>
+                </div>
             </div>
         </section>
     );

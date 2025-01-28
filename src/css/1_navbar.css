@@ -1,0 +1,94 @@
+/*------ CSS for the Navbar Section ------*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: lightgrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-container-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-container-content-text {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-container-content-text-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    flex-direction: column; /* Ensure the text is in a column */
+    padding: 10px; /* Add padding for better appearance */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-container-content-text-links a:hover{
+    background-color: #f1f1f1;
+    padding: 10px; /* Increase padding on hover */
+    transition: padding 0.3s ease, background-color 1s ease;
+    border-radius: 50px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+.navbar-container-content-text-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-container-content-text-buttons-1 {}
+.navbar-container-content-text-buttons-2 {}
