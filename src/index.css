@@ -75,8 +75,57 @@ body {}
 .abilities-container-button-img {}
 
 /*------ CSS for the Team Section ------*/
+.team {}
+.team-header {}
+.team-header-h2 {}
+.team-header-text {}
+.team-container {}
+.team-container-column1 {}
+.team-container-column2 {}
+.team-container-column-upper {}
+.team-container-column-lower {}
+.team-container-column-left {}
+.team-container-column-right {}
+.team-container-column-left-img {}
+.team-container-column-right-h4 {}
+.team-container-column-right-text1 {}
+.team-container-column-right-text2 {}
+.team-container-column-right-social {}
+.team-container-column-right-social-linkedIn {}
+.team-container-column-right-social-twitter {}
+.team-container-column-right-social-net {}
+.team-footer {}
+.team-footer-h3 {}
+.team-footer-text {}
+.team-container-button {}
+
 /*------ CSS for the Testimonials Section ------*/
+.testimonials {}
+.testimonials-container {}
+.testimonials-container-logo {}
+.testimonials-container-logo-img {}
+.testimonials-container-comment {}
+.testimonials-container-comment-h3 {}
+.testimonials-container-person-img {}
+.testimonials-container-comment-h4 {}
+.testimonials-container-comment-text {}
+.testimonials-container-manage {}
+.testimonials-container-manage-button {}
+.testimonials-container-manage-indicator {}
+
 /*------ CSS for the Contact Section ------*/
+.contact {}
+.contact-left {}
+.contact-right {}
+.contact-left-h2 {}
+.contact-left-text {}
+.contact-right-item-row1 {}
+.contact-right-item-row2 {}
+.contact-right-item-row-svg {}
+.contact-right-item-row-h4 {}
+.contact-right-item-row-text {}
+.contact-img {}
+.contact-img-photo {}
 
 /*------ CSS for the Footer Section ------*/
 .footer {}

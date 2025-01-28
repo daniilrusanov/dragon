@@ -8,7 +8,11 @@ export const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="navbar-container-content">
-                    <img className="navbar-logo" alt="Column" src={logo} />
+                    <img
+                        className="navbar-logo"
+                        alt="Column"
+                        src={logo}
+                    />
 
                     <div className="navbar-container-content-text">
                         <div className="navbar-container-content-text-links">
