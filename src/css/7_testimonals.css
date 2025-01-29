@@ -1,13 +1,58 @@
 /*------ CSS for the Testimonials Section ------*/
-.testimonials {}
-.testimonials-container {}
-.testimonials-container-logo {}
-.testimonials-container-logo-img {}
-.testimonials-container-comment {}
-.testimonials-container-comment-h3 {}
-.testimonials-container-person-img {}
-.testimonials-container-comment-h4 {}
-.testimonials-container-comment-text {}
-.testimonials-container-manage {}
-.testimonials-container-manage-button {}
-.testimonials-container-manage-indicator {}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.testimonials-container-logo {
+    margin-bottom: 20px;
+    height: 120px;
+    width: 120px;
+
+}
+
+.testimonials-container-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonials-container-person-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.testimonials-container-manage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.testimonials-container-manage-button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: none;
+}
+
+.testimonials-container-manage-indicator {
+    font-size: 16px;
+}

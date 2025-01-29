@@ -1,15 +1,93 @@
 /*------ CSS for the Footer Section ------*/
-.footer {}
-.footer-upper-section {}
-.footer-upper-section-left {}
-.footer-upper-section-right {}
-.footer-upper-section-left-logo {}
-.footer-upper-section-left-links {}
-.footer-upper-section-right-h4 {}
-.footer-upper-section-right-input {}
-.footer-upper-section-right-button {}
-.footer-upper-section-right-text {}
-.footer-middle-section {}
-.footer-lower-section {}
-.footer-lower-section-left {}
-.footer-lower-section-right {}
+.footer {
+    padding: 20px 50px;
+}
+
+.footer-upper-section {
+    padding: 20px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-upper-section-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-upper-section-left-logo {
+    margin-bottom: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.footer-upper-section-left-links {
+    display: flex;
+    gap: 30px;
+
+
+    a:hover {
+        transition: font-weight 0.5s ease;
+        font-weight: bold;
+    }
+}
+
+.footer-upper-section-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.footer-upper-section-right-wrapper {
+    text-align: left;
+}
+
+.footer-upper-section-right-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-upper-section-right-h4 {
+    margin-bottom: 10px;
+}
+
+.footer-upper-section-right-input {
+    margin-right: 15px;
+}
+
+.footer-upper-section-right-text {
+    font-size: 12px
+}
+
+.footer-middle-section {
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.footer-lower-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0;
+}
+
+.footer-lower-section-left {
+    display: flex;
+    gap: 40px;
+
+    a:hover {
+        transition: font-weight 0.5s ease;
+        font-weight: bold;
+    }
+}
+
+.footer-lower-section-right {
+    text-align: right;
+}

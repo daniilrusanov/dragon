@@ -9,55 +9,51 @@ import imgContactGeo from "../img/S7_contactGeo.svg";
 export const Contact = () => {
     return (
         <section className="contact">
-            <div className="contact-left">
-                <h2 className="contact-left-h2 h2">Зв'яжіться з нами</h2>
-                <span className={"contact-left-text text"}>
-                    Ми завжди раді відповісти на ваші запитання. Зв'яжіться з нами будь-яким зручним способом.
-                </span>
-            </div>
-            <div className="contact-right">
-                <div className="contact-right-item">
-                    <div className="contact-right-item-row1">
-                        <img
-                            className="contact-right-item-row-svg"
-                            alt="Column"
-                            src={imgContactMail}
-                        />
-                        <h4 className="contact-right-item-row-h4 h4">Електронна пошта</h4>
-                    </div>
-                    <div className="contact-right-item-row2">
+            <div className="contact-columns" id="contact">
+                <div className="contact-left">
+                    <h1 className="contact-left-h1 h1">Зв'яжіться з нами</h1>
+                    <span className="contact-left-text text">
+                        Ми завжди раді відповісти на ваші запитання. Зв'яжіться з нами будь-яким зручним способом.
+                    </span>
+                </div>
+                <div className="contact-right">
+                    <div className="contact-right-item">
+                        <div className="contact-right-item-row1">
+                            <img
+                                className="contact-right-item-row-svg"
+                                alt="Mail"
+                                src={imgContactMail}
+                            />
+                            <h5 className="contact-right-item-row-h5 h5">Електронна пошта</h5>
+                        </div>
                         <span className="contact-right-item-row-text text">
                             daniil12099@gmail.com
                         </span>
                     </div>
-                </div>
 
-                <div className="contact-right-item">
-                    <div className="contact-right-item-row1">
-                        <img
-                            className="contact-right-item-row-svg"
-                            alt="Column"
-                            src={imgContactPhone}
-                        />
-                        <h4 className="contact-right-item-row-h4 h4">Телефон</h4>
-                    </div>
-                    <div className="contact-right-item-row2">
+                    <div className="contact-right-item">
+                        <div className="contact-right-item-row1">
+                            <img
+                                className="contact-right-item-row-svg"
+                                alt="Phone"
+                                src={imgContactPhone}
+                            />
+                            <h5 className="contact-right-item-row-h5 h5">Телефон</h5>
+                        </div>
                         <span className="contact-right-item-row-text text">
                             +38 (093) 000-0000
                         </span>
                     </div>
-                </div>
 
-                <div className="contact-right-item">
-                    <div className="contact-right-item-row1">
-                        <img
-                            className="contact-right-item-row-svg"
-                            alt="Column"
-                            src={imgContactGeo}
-                        />
-                        <h4 className="contact-right-item-row-h4 h4">Офіс</h4>
-                    </div>
-                    <div className="contact-right-item-row2">
+                    <div className="contact-right-item">
+                        <div className="contact-right-item-row1">
+                            <img
+                                className="contact-right-item-row-svg"
+                                alt="Geo"
+                                src={imgContactGeo}
+                            />
+                            <h5 className="contact-right-item-row-h5 h5">Офіс</h5>
+                        </div>
                         <span className="contact-right-item-row-text text">
                             Вулиця Шевченка, 12, Київ, 0000, Україна
                         </span>
@@ -67,7 +63,7 @@ export const Contact = () => {
             <div className="contact-img">
                 <img
                     className="contact-img-photo img"
-                    alt="Column"
+                    alt="Contact"
                     src={imgContact}
                 />
             </div>

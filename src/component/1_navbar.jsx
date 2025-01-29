@@ -16,7 +16,7 @@ export const Navbar = () => {
             <div className="navbar-container">
                 <div className="navbar-container-content">
                     <img
-                        className="navbar-logo"
+                        className="navbar-logo logo"
                         alt="Column"
                         src={logo}
                     />
@@ -40,8 +40,8 @@ export const Navbar = () => {
                                 {dropdownOpen && (
                                     <div className="dropdown-content">
                                         <a href="#team" className="link-text">Команда</a>
-                                        <a href="#testimonals" className="link-text">Відгуки</a>
-                                        <a href="#contacts" className="link-text">Контакти</a>
+                                        <a href="#testimonials" className="link-text">Відгуки</a>
+                                        <a href="#contact" className="link-text">Контакти</a>
                                     </div>
                                 )}
                             </div>

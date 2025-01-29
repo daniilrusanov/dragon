@@ -1,13 +1,73 @@
-/*------ CSS for the Contact Section ------*/
-.contact {}
-.contact-left {}
-.contact-right {}
-.contact-left-h2 {}
-.contact-left-text {}
-.contact-right-item-row1 {}
-.contact-right-item-row2 {}
-.contact-right-item-row-svg {}
-.contact-right-item-row-h4 {}
-.contact-right-item-row-text {}
-.contact-img {}
-.contact-img-photo {}
+.contact {
+    padding: 20px 50px;
+    background-color: #f9f9f9;
+}
+
+.contact-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left {
+    margin-top: 30px;
+    margin-left: 100px;
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-left-h1 {
+    margin-bottom: 15px;
+}
+
+.contact-left-text {
+    margin-bottom: 20px;
+}
+
+.contact-right {
+    flex: 1;
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.contact-right-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.contact-right-item-row1 {
+    display: flex;
+    align-items: center;
+}
+
+.contact-right-item-row-svg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact-right-item-row-h5 {
+    margin: 0;
+}
+
+.contact-right-item-row-text {
+    margin-left: 55px;
+    margin-top: 5px;
+}
+
+.contact-right-item-row2 {
+    flex: 1;
+}
+
+.contact-img {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-img-photo {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ccc;
+    border-radius: 50px;
+}

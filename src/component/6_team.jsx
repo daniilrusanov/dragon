@@ -12,7 +12,7 @@ import imgTeamNet from "../img/S5_teamNet.svg";
 
 export const Team = () => {
     return (
-        <section className="team">
+        <section className="team" id="team">
             <div className="team-header">
                 <h2 className="team-header-h2 h2">Наша команда</h2>
                 <span className="team-header-text text">Ми - команда професіоналів, захоплених драконами.</span>

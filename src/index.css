@@ -97,8 +97,44 @@
     border: none;
 }
 
+.button1:hover {
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
 
-.img {}
+.button2:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
+}
+
+.button3:hover {
+    background-color: #f0f0f0;
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button4:hover {
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.input {
+    border: var(--button1-border);
+    color: var(--button1-color);
+    padding: var(--button1-padding);
+    border-radius: var(--button1-border-radius);
+}
+
+.logo {
+    border: 2px solid black;
+    background: none;
+    padding: 10px;
+    border-radius: 50%;
+}
 
 
 /* Tablet styles */
