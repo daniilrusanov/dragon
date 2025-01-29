@@ -6,9 +6,9 @@ import imgTeam2 from "../img/S5_team4.jpeg";
 import imgTeam3 from "../img/S5_team3.jpeg";
 import imgTeam4 from "../img/S5_team2.jpeg";
 
-import imgTeamLinkedIm from "../img/S5_teamLinkedIn.svg";
-import imgTeamTwitter from "../img/S5_teamTwitter.svg";
-import imgTeamNet from "../img/S5_teamNet.svg";
+import imgTeamLinkedIm from "../img/svg/S5_teamLinkedIn.svg";
+import imgTeamTwitter from "../img/svg/S5_teamTwitter.svg";
+import imgTeamNet from "../img/svg/S5_teamNet.svg";
 
 export const Team = () => {
     return (
