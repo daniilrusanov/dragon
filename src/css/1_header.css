@@ -1,5 +1,3 @@
-/*------ CSS for the Header Section ------*/
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -61,6 +59,3 @@
     padding: 5px;
     box-sizing: border-box;
 }
-
-.header-container-buttons-1 {}
-.header-container-buttons-2 {}

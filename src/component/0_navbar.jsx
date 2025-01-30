@@ -1,8 +1,8 @@
-import '../css/1_navbar.css';
+import '../css/0_navbar.css';
 import React from "react";
 import { useState } from "react";
 
-import logo from "../img/svg/logo.svg";
+import logo from "../svg/logo.svg";
 
 export const Navbar = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);

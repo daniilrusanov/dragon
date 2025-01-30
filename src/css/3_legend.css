@@ -15,8 +15,7 @@
 
 .legend-text {
     max-width: 730px;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
     text-indent: 20px;
 }
 
@@ -33,10 +32,11 @@
 
 .firefly {
     position: absolute;
-    width: 5px;
-    height: 5px;
-    background: darkred;
+    width: 6px;
+    height: 6px;
+    background: radial-gradient(circle, rgba(255,165,0,1) 0%, rgba(255,69,0,1) 100%);
     border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255,69,0,0.5);
     animation: firefly-animation 8s linear infinite;
 }
 

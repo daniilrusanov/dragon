@@ -1,19 +1,35 @@
-import '../css/8_contact.css';
-import React from "react";
+import '../css/7_contact.css';
+import React, { useEffect, useState } from "react";
+import { fetchDragonsData } from '../js/fetchDragonsData';
 
-import imgContact from "../img/S7_contacts.jpeg";
-import imgContactMail from "../img/svg/S7_contactMail.svg";
-import imgContactPhone from "../img/svg/S7_contactPhone.svg";
-import imgContactGeo from "../img/svg/S7_contactGeo.svg";
+import imgContactMail from "../svg/S7_contactMail.svg";
+import imgContactPhone from "../svg/S7_contactPhone.svg";
+import imgContactGeo from "../svg/S7_contactGeo.svg";
 
 export const Contact = () => {
+    const [contact, setContact] = useState({});
+
+    useEffect(() => {
+        const getDragonsData = async () => {
+            try {
+                const data = await fetchDragonsData();
+                const contactData = data.find(dragon => dragon.id === 16);
+                setContact(contactData);
+            } catch (error) {
+                console.error('Error fetching dragons data:', error);
+            }
+        };
+
+        getDragonsData();
+    }, []);
+
     return (
-        <section className="contact">
-            <div className="contact-columns" id="contact">
+        <section className="contact" id="contact">
+            <div className="contact-columns">
                 <div className="contact-left">
-                    <h1 className="contact-left-h1 h1">Зв'яжіться з нами</h1>
+                    <h1 className="contact-left-h1 h1">{contact.title}</h1>
                     <span className="contact-left-text text">
-                        Ми завжди раді відповісти на ваші запитання. Зв'яжіться з нами будь-яким зручним способом.
+                        {contact.subtitle}
                     </span>
                 </div>
                 <div className="contact-right">
@@ -24,10 +40,10 @@ export const Contact = () => {
                                 alt="Mail"
                                 src={imgContactMail}
                             />
-                            <h5 className="contact-right-item-row-h5 h5">Електронна пошта</h5>
+                            <h5 className="contact-right-item-row-h5 h5">{contact.contactTitle1}</h5>
                         </div>
                         <span className="contact-right-item-row-text text">
-                            daniil12099@gmail.com
+                            {contact.contactSubtitle1}
                         </span>
                     </div>
 
@@ -38,10 +54,10 @@ export const Contact = () => {
                                 alt="Phone"
                                 src={imgContactPhone}
                             />
-                            <h5 className="contact-right-item-row-h5 h5">Телефон</h5>
+                            <h5 className="contact-right-item-row-h5 h5">{contact.contactTitle2}</h5>
                         </div>
                         <span className="contact-right-item-row-text text">
-                            +38 (093) 000-0000
+                            {contact.contactSubtitle2}
                         </span>
                     </div>
 
@@ -52,10 +68,10 @@ export const Contact = () => {
                                 alt="Geo"
                                 src={imgContactGeo}
                             />
-                            <h5 className="contact-right-item-row-h5 h5">Офіс</h5>
+                            <h5 className="contact-right-item-row-h5 h5">{contact.contactTitle3}</h5>
                         </div>
                         <span className="contact-right-item-row-text text">
-                            Вулиця Шевченка, 12, Київ, 0000, Україна
+                            {contact.contactSubtitle3}
                         </span>
                     </div>
                 </div>
@@ -63,8 +79,8 @@ export const Contact = () => {
             <div className="contact-img">
                 <img
                     className="contact-img-photo img"
-                    alt="Contact"
-                    src={imgContact}
+                    alt={contact.alt}
+                    src={contact.src}
                 />
             </div>
         </section>

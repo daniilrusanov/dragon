@@ -1,7 +1,7 @@
-import '../css/9_footer.css';
+import '../css/8_footer.css';
 import React from "react";
 
-import logo from "../img/svg/logo.svg";
+import logo from "../svg/logo.svg";
 
 export const Footer = () => {
     return (
@@ -11,10 +11,10 @@ export const Footer = () => {
                     <div className="footer-upper-section-left">
                         <img className="footer-upper-section-left-logo logo" alt="Logo" src={logo} />
                         <nav className="footer-upper-section-left-links">
-                            <a href="#link1" className="link-text">Консультації</a>
-                            <a href="#link2" className="link-text">Тренування</a>
-                            <a href="#link3" className="link-text">Навчання</a>
-                            <a href="#link4" className="link-text">Промо акції</a>
+                            <a href="" className="link-text">Консультації</a>
+                            <a href="" className="link-text">Тренування</a>
+                            <a href="" className="link-text">Навчання</a>
+                            <a href="" className="link-text">Промо акції</a>
                         </nav>
                     </div>
                     <div className="footer-upper-section-right">
@@ -35,13 +35,13 @@ export const Footer = () => {
 
             <div className="footer-lower-section">
                 <div className="footer-lower-section-left">
-                    <a href="#link1" className="link-text">
+                    <a href="" className="link-text">
                         Privacy Police
                     </a>
-                    <a href="#link2" className="link-text">
+                    <a href="" className="link-text">
                         Умови обслуговування
                     </a>
-                    <a href="#link3" className="link-text">
+                    <a href="" className="link-text">
                         Налаштування Cookies
                     </a>
                 </div>
