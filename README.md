@@ -21,7 +21,7 @@
 [Переглянути макет.](https://www.figma.com/design/9TYBszN0fxppVoCSvSzqd6/Dragons?node-id=0-1&p=f&t=tAnJiYP1wpXY96TU-0)
 
 ## Backend
-Дані можна переглянути у файлі `src/json/Dragons.json`.
+Дані можна переглянути у файлі `src/js/json/Dragons.json`.
 
 API для отримання даних:  
 [Переглянути json на сайті.](https://api.jsonbin.io/v3/b/679b557ce41b4d34e481291c)

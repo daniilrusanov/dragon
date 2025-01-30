@@ -1,12 +1,12 @@
-import { Navbar } from './component/0_navbar';
-import { Header } from './component/1_header';
-import { OldDragons } from './component/2_oldDragons';
-import { Legend } from './component/3_legend';
-import { Abilities } from './component/4_abilities';
-import { Team } from './component/5_team';
-import { Testimonials } from './component/6_testimonials';
-import { Contact } from './component/7_contact';
-import { Footer } from './component/8_footer';
+import { Navbar } from './components/0_navbar/navbar';
+import { Header } from './components/1_header/header';
+import { OldDragons } from './components/2_oldDragons/oldDragons';
+import { Legend } from './components/3_legend/legend';
+import { Abilities } from './components/4_abilities/abilities';
+import { Team } from './components/5_team/team';
+import { Testimonials } from './components/6_testimonials/testimonials';
+import { Contact } from './components/7_contact/contact';
+import { Footer } from './components/8_footer/footer';
 
 function App() {
     return (

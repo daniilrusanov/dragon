@@ -1,10 +1,10 @@
-import '../css/5_team.css';
+import './team.css';
 import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../js/fetchDragonsData';
+import { fetchDragonsData } from '../../js/fetchDragonsData';
 
-import imgTeamLinkedIn from "../svg/S5_teamLinkedIn.svg";
-import imgTeamTwitter from "../svg/S5_teamTwitter.svg";
-import imgTeamNet from "../svg/S5_teamNet.svg";
+import imgTeamLinkedIn from "../../svg/teamLinkedIn.svg";
+import imgTeamTwitter from "../../svg/teamTwitter.svg";
+import imgTeamNet from "../../svg/teamNet.svg";
 
 export const Team = () => {
     const [teamMembers, setTeamMembers] = useState([]);

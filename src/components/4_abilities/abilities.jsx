@@ -1,6 +1,6 @@
-import '../css/4_abilities.css';
+import './abilities.css';
 import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../js/fetchDragonsData';
+import { fetchDragonsData } from '../../js/fetchDragonsData';
 
 export const Abilities = () => {
     const [abilities, setAbilities] = useState({});

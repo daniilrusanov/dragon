@@ -1,6 +1,6 @@
-import '../css/2_oldDragons.css';
+import './oldDragons.css';
 import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../js/fetchDragonsData';
+import { fetchDragonsData } from '../../js/fetchDragonsData';
 
 export const OldDragons = () => {
     const [oldDragons, setOldDragons] = useState([]);

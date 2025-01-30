@@ -1,6 +1,6 @@
-import '../css/1_header.css';
+import './header.css';
 import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../js/fetchDragonsData';
+import { fetchDragonsData } from '../../js/fetchDragonsData';
 
 export const Header = () => {
     const [headerImages, setHeaderImages] = useState([]);

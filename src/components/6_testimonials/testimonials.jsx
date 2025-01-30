@@ -1,7 +1,7 @@
-import '../css/6_testimonals.css';
+import './testimonials.css';
 import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../js/fetchDragonsData';
-import logo from "../svg/logo.svg";
+import { fetchDragonsData } from '../../js/fetchDragonsData';
+import logo from "../../svg/logo.svg";
 
 export const Testimonials = () => {
     const [testimonials, setTestimonials] = useState([]);

@@ -1,10 +1,10 @@
-import '../css/7_contact.css';
+import './contact.css';
 import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../js/fetchDragonsData';
+import { fetchDragonsData } from '../../js/fetchDragonsData';
 
-import imgContactMail from "../svg/S7_contactMail.svg";
-import imgContactPhone from "../svg/S7_contactPhone.svg";
-import imgContactGeo from "../svg/S7_contactGeo.svg";
+import imgContactMail from "../../svg/contactMail.svg";
+import imgContactPhone from "../../svg/contactPhone.svg";
+import imgContactGeo from "../../svg/contactGeo.svg";
 
 export const Contact = () => {
     const [contact, setContact] = useState({});

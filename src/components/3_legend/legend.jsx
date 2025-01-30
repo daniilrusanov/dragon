@@ -1,6 +1,6 @@
-import '../css/3_legend.css';
+import './legend.css';
 import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../js/fetchDragonsData';
+import { fetchDragonsData } from '../../js/fetchDragonsData';
 
 export const Legend = () => {
     const [legend, setLegend] = useState({});
