@@ -69,3 +69,65 @@
     padding: 10px 30px;
     background: none;
 }
+
+@media (max-width: 768px) {
+    .oldDragons-container-main-content-tags {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .oldDragons-container-main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .oldDragons-header-text {
+        margin-bottom: 0;
+    }
+
+    .oldDragons-container-main-column-1,
+    .oldDragons-container-main-column-2 {
+        width: 80%;
+    }
+
+    .oldDragons-container-main-image {
+        width: 60%;
+        height: auto;
+    }
+
+    .oldDragons-container-main-content {
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .oldDragons-container-main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .oldDragons-container-main-column-1 {
+        width: 100%;
+    }
+
+    .oldDragons-container-main-column-2 {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .oldDragons-container-main-image {
+        width: 80%;
+        height: auto;
+    }
+
+    .oldDragons-container-main-content {
+        align-items: center;
+        text-align: center;
+    }
+}

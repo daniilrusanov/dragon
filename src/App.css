@@ -92,4 +92,9 @@
     --body-margin: 0;
     --body-padding: 0;
     --body-line-height: 1.5;
+
+    /* Button style */
+    --button-padding: 10px 20px;
+    --button-tablet-padding: 8px 16px;
+    --button-mobile-padding: 2px 4px;
 }

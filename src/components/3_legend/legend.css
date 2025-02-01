@@ -73,3 +73,36 @@
         opacity: 0;
     }
 }
+
+@media (max-width: 1200px) {
+    .legend-h2 {
+        font-size: 1.8rem;
+    }
+
+    .legend-text {
+        max-width: 500px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .legend-h2 {
+        font-size: 1.5rem;
+    }
+
+    .legend-text {
+        max-width: 400px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .legend-h2 {
+        font-size: 1.2rem;
+    }
+
+    .legend-text {
+        max-width: 300px;
+        font-size: 0.8rem;
+    }
+}
