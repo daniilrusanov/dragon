@@ -7,7 +7,7 @@ export const Footer = () => {
 
     function updatePlaceholder() {
         const input = document.querySelector('.footer-upper-section-right-input');
-        if (window.innerWidth <= 930 && window.innerWidth > 680) {
+        if (window.innerWidth <= 1000 && window.innerWidth > 680) {
             input.placeholder = 'Введіть email...';
         } else {
             input.placeholder = 'Введіть ваш email...';
