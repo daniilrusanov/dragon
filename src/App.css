@@ -21,40 +21,16 @@
     --heading-mobile-h5-font-size: 20px;
     --heading-mobile-h6-font-size: 16px;
 
-    --heading-h1-font-family: "Roboto", Helvetica;
-    --heading-h1-font-style: normal;
-    --heading-h1-font-weight: 400;
-    --heading-h1-letter-spacing: 0px;
-    --heading-h1-line-height: 120%;
-    --heading-h2-font-family: "Roboto", Helvetica;
-    --heading-h2-font-style: normal;
-    --heading-h2-font-weight: 400;
-    --heading-h2-letter-spacing: 0px;
-    --heading-h2-line-height: 120%;
-    --heading-h3-font-family: "Roboto", Helvetica;
-    --heading-h3-font-style: normal;
-    --heading-h3-font-weight: 400;
-    --heading-h3-letter-spacing: 0px;
-    --heading-h3-line-height: 120%;
-    --heading-h4-font-family: "Roboto", Helvetica;
-    --heading-h4-font-style: normal;
-    --heading-h4-font-weight: 400;
-    --heading-h4-letter-spacing: 0px;
-    --heading-h4-line-height: 130%;
-    --heading-h5-font-family: "Roboto", Helvetica;
-    --heading-h5-font-style: normal;
-    --heading-h5-font-weight: 400;
-    --heading-h5-letter-spacing: 0px;
-    --heading-h5-line-height: 140%;
-    --heading-h6-font-family: "Roboto", Helvetica;
-    --heading-h6-font-style: normal;
-    --heading-h6-font-weight: 400;
-    --heading-h6-letter-spacing: 0px;
-    --heading-h6-line-height: 140%;
+    --text-desktop-font-size: 16px;
+    --text-tablet-font-size: 14px;
+    --text-mobile-font-size: 12px;
+
+    --link-desktop-text-font-size: var(--text-desktop-font-size);
+    --link-tablet-text-font-size: var(--text-tablet-font-size);
+    --link-mobile-text-font-size: var(--text-mobile-font-size);
 
     /* Text style */
     --text-font-family: "Roboto", Helvetica, sans-serif;
-    --text-font-size: 16px;
     --text-color: #333;
     --text-line-height: 1.5;
 
@@ -66,10 +42,9 @@
 
     /* Link style */
     --link-text-font-family: var(--text-font-family);
-    --link-text-font-size: var(--text-font-size);
     --link-text-color: #000000;
 
-    /* Button styles */
+    /* Buttons styles */
     --button1-border: 1px solid #000;
     --button1-color: #000;
     --button1-padding: 10px 20px;
@@ -97,4 +72,41 @@
     --button-padding: 10px 20px;
     --button-tablet-padding: 8px 16px;
     --button-mobile-padding: 2px 4px;
+
+    /* Headers styles */
+    --heading-h1-font-family: "Roboto", Helvetica;
+    --heading-h1-font-style: normal;
+    --heading-h1-font-weight: 400;
+    --heading-h1-letter-spacing: 0px;
+    --heading-h1-line-height: 120%;
+
+    --heading-h2-font-family: "Roboto", Helvetica;
+    --heading-h2-font-style: normal;
+    --heading-h2-font-weight: 400;
+    --heading-h2-letter-spacing: 0px;
+    --heading-h2-line-height: 120%;
+
+    --heading-h3-font-family: "Roboto", Helvetica;
+    --heading-h3-font-style: normal;
+    --heading-h3-font-weight: 400;
+    --heading-h3-letter-spacing: 0px;
+    --heading-h3-line-height: 120%;
+
+    --heading-h4-font-family: "Roboto", Helvetica;
+    --heading-h4-font-style: normal;
+    --heading-h4-font-weight: 400;
+    --heading-h4-letter-spacing: 0px;
+    --heading-h4-line-height: 130%;
+
+    --heading-h5-font-family: "Roboto", Helvetica;
+    --heading-h5-font-style: normal;
+    --heading-h5-font-weight: 400;
+    --heading-h5-letter-spacing: 0px;
+    --heading-h5-line-height: 140%;
+
+    --heading-h6-font-family: "Roboto", Helvetica;
+    --heading-h6-font-style: normal;
+    --heading-h6-font-weight: 400;
+    --heading-h6-letter-spacing: 0px;
+    --heading-h6-line-height: 140%;
 }
