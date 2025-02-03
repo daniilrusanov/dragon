@@ -11,7 +11,7 @@ import {Footer} from './components/8_footer/footer';
 function App() {
     return (
         <>
-            {/*<Navbar />*/}
+            <Navbar />
             <Header/>
             <OldDragons/>
             <Legend/>
@@ -19,7 +19,7 @@ function App() {
             <Team/>
             <Testimonials/>
             <Contact/>
-            {/*<Footer />*/}
+            <Footer />
         </>
     );
 }

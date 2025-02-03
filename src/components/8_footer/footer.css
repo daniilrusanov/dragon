@@ -1,4 +1,5 @@
 /*------ CSS for the Footer Section ------*/
+
 .footer {
     padding: 20px 50px;
 }
@@ -90,4 +91,90 @@
 
 .footer-lower-section-right {
     text-align: right;
+}
+
+@media (max-width: 978px) {
+    .footer-upper-section-right-input {
+        width: 150px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 930px) {
+    .footer-upper-section-left-links {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 730px) {
+    .footer {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 680px) {
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-upper-section-left,
+    .footer-upper-section-right {
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .footer-upper-section-right-h4 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .footer-upper-section-right-input-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-upper-section-right-input,
+    .footer-upper-section-right-button {
+        width: 350px;
+        margin-top: 10px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .footer-upper-section-right-text {
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-lower-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-lower-section-left,
+    .footer-lower-section-right {
+        text-align: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .footer-upper-section-right-input,
+    .footer-upper-section-right-button {
+        width: 250px;
+    }
+
+    .footer-upper-section-left-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-lower-section-left {
+        display: flex;
+        flex-direction: column;
+    }
 }
