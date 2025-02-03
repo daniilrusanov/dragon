@@ -1,6 +1,6 @@
 import './team.css';
-import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../../js/fetchDragonsData';
+import React, {useEffect, useState} from "react";
+import {fetchDragonsData} from '../../js/fetchDragonsData';
 
 import imgTeamLinkedIn from "../../svg/teamLinkedIn.svg";
 import imgTeamTwitter from "../../svg/teamTwitter.svg";

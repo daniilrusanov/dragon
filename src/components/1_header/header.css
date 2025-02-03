@@ -1,3 +1,5 @@
+/*------ CSS for the Header Section ------*/
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -166,23 +168,25 @@
         display: flex;
         flex-direction: row;
         gap: 10px;
-        justify-content: center;
-        align-items: center;
     }
 
     .header-container-h1 {
         font-size: 1.2em;
         margin-bottom: 15px;
+        text-align: center;
     }
 
     .header-container-text {
         font-size: 0.9em;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     .header-container-buttons {
         flex-direction: row;
         gap: 5px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .header-container-image {

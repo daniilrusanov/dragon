@@ -1,6 +1,6 @@
 import './legend.css';
-import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../../js/fetchDragonsData';
+import React, {useEffect, useState} from "react";
+import {fetchDragonsData} from '../../js/fetchDragonsData';
 
 export const Legend = () => {
     const [legend, setLegend] = useState({});

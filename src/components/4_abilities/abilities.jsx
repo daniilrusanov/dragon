@@ -1,6 +1,6 @@
 import './abilities.css';
-import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../../js/fetchDragonsData';
+import React, {useEffect, useState} from "react";
+import {fetchDragonsData} from '../../js/fetchDragonsData';
 
 export const Abilities = () => {
     const [abilities, setAbilities] = useState({});
@@ -32,7 +32,7 @@ export const Abilities = () => {
                 </div>
                 <div className="abilities-container-column-2">
                     <img
-                        className="abilities-container-button-img img"
+                        className="abilities-container-img img"
                         alt={abilities.alt}
                         src={abilities.src}
                     />

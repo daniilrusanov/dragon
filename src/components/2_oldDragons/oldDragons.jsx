@@ -1,6 +1,6 @@
 import './oldDragons.css';
-import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../../js/fetchDragonsData';
+import React, {useEffect, useState} from "react";
+import {fetchDragonsData} from '../../js/fetchDragonsData';
 
 export const OldDragons = () => {
     const [oldDragons, setOldDragons] = useState([]);
@@ -27,7 +27,8 @@ export const OldDragons = () => {
             <div className="oldDragons-container">
                 <div className="oldDragons-container-main">
                     {oldDragons.map(dragon => (
-                        <article key={dragon.id} className="oldDragons-container-main-column-1 oldDragons-container-main-column-2">
+                        <article key={dragon.id}
+                                 className="oldDragons-container-main-column-1 oldDragons-container-main-column-2">
                             <img
                                 className="oldDragons-container-main-image"
                                 alt={dragon.alt}

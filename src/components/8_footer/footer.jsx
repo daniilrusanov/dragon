@@ -9,7 +9,7 @@ export const Footer = () => {
             <div className="footer-upper-section">
                 <div className="footer-columns">
                     <div className="footer-upper-section-left">
-                        <img className="footer-upper-section-left-logo logo" alt="Logo" src={logo} />
+                        <img className="footer-upper-section-left-logo logo" alt="Logo" src={logo}/>
                         <nav className="footer-upper-section-left-links">
                             <a href="" className="link-text">Консультації</a>
                             <a href="" className="link-text">Тренування</a>

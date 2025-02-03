@@ -1,6 +1,6 @@
 import './testimonials.css';
-import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../../js/fetchDragonsData';
+import React, {useEffect, useState} from "react";
+import {fetchDragonsData} from '../../js/fetchDragonsData';
 import logo from "../../svg/logo.svg";
 
 export const Testimonials = () => {
@@ -33,7 +33,7 @@ export const Testimonials = () => {
         return <div>Loading...</div>;
     }
 
-    const { comment, title, subtitle, img } = testimonials[currentIndex];
+    const {comment, title, subtitle, img} = testimonials[currentIndex];
 
     return (
         <section className="testimonials" id="testimonials">
@@ -60,9 +60,12 @@ export const Testimonials = () => {
                 </div>
 
                 <div className="testimonials-container-manage">
-                    <button className="testimonials-container-manage-button button4" onClick={handlePrev}>&#8592;</button>
-                    <span className="testimonials-container-manage-indicator">{currentIndex + 1} / {testimonials.length}</span>
-                    <button className="testimonials-container-manage-button button4" onClick={handleNext}>&#8594;</button>
+                    <button className="testimonials-container-manage-button button4"
+                            onClick={handlePrev}>&#8592;</button>
+                    <span
+                        className="testimonials-container-manage-indicator">{currentIndex + 1} / {testimonials.length}</span>
+                    <button className="testimonials-container-manage-button button4"
+                            onClick={handleNext}>&#8594;</button>
                 </div>
             </div>
         </section>

@@ -1,6 +1,6 @@
 import './contact.css';
-import React, { useEffect, useState } from "react";
-import { fetchDragonsData } from '../../js/fetchDragonsData';
+import React, {useEffect, useState} from "react";
+import {fetchDragonsData} from '../../js/fetchDragonsData';
 
 import imgContactMail from "../../svg/contactMail.svg";
 import imgContactPhone from "../../svg/contactPhone.svg";

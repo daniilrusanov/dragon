@@ -36,9 +36,32 @@
     color: #666;
 }
 
-.abilities-container-button-img {
+.abilities-container-img {
     max-width: 120%;
     height: auto;
     border: 3px solid #ccc;
     border-radius: 50px;
+}
+
+@media (max-width: 1350px) {
+    .abilities-container-img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .abilities-container {
+        flex-direction: column;
+    }
+
+    .abilities-container-column-1,
+    .abilities-container-column-2 {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .abilities-container-img {
+        max-width: 70%;
+        margin: 0 auto;
+    }
 }

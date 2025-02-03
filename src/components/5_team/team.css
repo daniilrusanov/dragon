@@ -30,17 +30,20 @@
 .team-container-column {
     display: flex;
     flex-direction: column;
-    width: 48%; /* Two columns */
+    align-items: center;
+    width: 48%;
 }
 
 .team-container-card {
     display: flex;
     margin-bottom: 20px;
+    align-items: center;
+    width: 80%;
 }
 
 .team-container-card-img {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     object-fit: cover;
     margin-right: 20px;
     border: 3px solid #ccc;
@@ -50,10 +53,7 @@
 .team-container-card {
     display: flex;
     margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
 }
-
 
 .team-container-card-text1 {
     margin-bottom: 10px;
@@ -66,4 +66,68 @@
 .team-container-card-social {
     display: flex;
     gap: 10px;
+}
+
+@media (max-width: 1100px) {
+    .team-container {
+        padding: 0;
+    }
+
+    .team-container-card-img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-header, .team-footer {
+        text-align: center;
+        padding: 0;
+    }
+
+
+    .team-container-column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-container-column {
+        width: 100%;
+    }
+
+    .team-header, .team-footer {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .team-container-card-img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+@media (max-width: 450px) {
+    .team-container-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-container-card-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 250px;
+        width: 100%;
+        max-height: 150px;
+    }
+
+    .team-container-card-content, .team-container-card-social {
+        text-align: center;
+        justify-content: center;
+    }
 }
