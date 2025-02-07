@@ -48,7 +48,7 @@ export const Testimonials = () => {
 
                 <div className="testimonials-container-comment">
                     <h5 className="testimonials-container-comment-h5 h4">
-                        {comment}
+                        {text}
                     </h5>
                     <img
                         className="testimonials-container-person-img"

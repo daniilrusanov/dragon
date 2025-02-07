@@ -42,7 +42,7 @@ export const Header = () => {
                                 key={dragon.id}
                                 className="header-container-image img"
                                 alt={dragon.alt}
-                                src={dragon.src}
+                                src={dragon.img}
                             />
                         ))}
                     </div>
@@ -52,7 +52,7 @@ export const Header = () => {
                                 key={dragon.id}
                                 className="header-container-image img"
                                 alt={dragon.alt}
-                                src={dragon.src}
+                                src={dragon.img}
                             />
                         ))}
                     </div>

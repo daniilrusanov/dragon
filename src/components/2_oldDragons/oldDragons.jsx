@@ -32,7 +32,7 @@ export const OldDragons = () => {
                             <img
                                 className="oldDragons-container-main-image"
                                 alt={dragon.alt}
-                                src={dragon.src}
+                                src={dragon.img}
                             />
                             <div className="oldDragons-container-main-content">
                                 <h3 className="oldDragons-container-main-content-h3 h3">{dragon.title}</h3>

@@ -2,22 +2,22 @@
   {
     "id": 1,
     "alt": "S1_header1",
-    "src": "https://i.ibb.co/kVQdRfjz/S1-header1.jpg"
+    "img": "https://i.ibb.co/kVQdRfjz/S1-header1.jpg"
   },
   {
     "id": 2,
     "alt": "S1_header2",
-    "src": "https://i.ibb.co/99sGC9Wz/S1-header2.jpg"
+    "img": "https://i.ibb.co/99sGC9Wz/S1-header2.jpg"
   },
   {
     "id": 3,
     "alt": "S1_header3",
-    "src": "https://i.ibb.co/zhJYwNFS/S1-header3.jpg"
+    "img": "https://i.ibb.co/zhJYwNFS/S1-header3.jpg"
   },
   {
     "id": 4,
     "alt": "S1_header4",
-    "src": "https://i.ibb.co/7dhQY05Z/S1-header4.jpg"
+    "img": "https://i.ibb.co/7dhQY05Z/S1-header4.jpg"
   },
   {
     "id": 5,
@@ -27,7 +27,7 @@
     "tag1": "Мудрість",
     "tag2": "Сила",
     "tag3": "Легенда",
-    "src": "https://i.ibb.co/Fb475KWx/S2-Old-Dragons1.jpg"
+    "img": "https://i.ibb.co/Fb475KWx/S2-Old-Dragons1.jpg"
   },
   {
     "id": 6,
@@ -37,7 +37,7 @@
     "tag1": "Вогонь",
     "tag2": "Тепло",
     "tag3": "Сила",
-    "src": "https://i.ibb.co/fGL02ybF/S2-Old-Dragons2.jpg"
+    "img": "https://i.ibb.co/fGL02ybF/S2-Old-Dragons2.jpg"
   },
   {
     "id": 7,
@@ -50,7 +50,7 @@
     "alt": "S4_Abilities",
     "title": "Унікальні здібності",
     "subtitle": "Літні дракони вражають своєю розгромною магією вогню. Їхнє вогняне дихання здатне спалити все на своєму шляху, а вміння контролювати полум'я робить їх непереможними. Завдяки цим здібностям вони можуть літати на великі відстані, створюючи в небі вогняні сліди.",
-    "src": "https://i.ibb.co/7dqV34q4/S4-Abilities.jpg"
+    "img": "https://i.ibb.co/7dqV34q4/S4-Abilities.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
   {
     "id": 13,
     "alt": "S6_person1",
-    "comment": "\"Зустріч з літніми драконами була неймовірною! Я відчував, як їхня магія наповнює повітря.\"",
+    "text": "\"Зустріч з літніми драконами була неймовірною! Я відчував, як їхня магія наповнює повітря.\"",
     "img": "https://i.ibb.co/8gKNkJQL/S6-person1.jpg",
     "title": "Олександр Петров",
     "subtitle": "Мандрівник, Україна"
@@ -95,7 +95,7 @@
   {
     "id": 14,
     "alt": "S6_person2",
-    "comment": "\"Ці дракони справжні! Їхня мудрість і велич вражають з першого погляду.\"",
+    "text": "\"Ці дракони справжні! Їхня мудрість і велич вражають з першого погляду.\"",
     "img": "https://i.ibb.co/8DmhVFJc/S6-person2.jpg",
     "title": "Марія Іванова",
     "subtitle": "Дослідник, Польща"
@@ -103,22 +103,22 @@
   {
     "id": 15,
     "alt": "S6_person3",
-    "comment": "\"Ці істоти неймовірні! Їхня сила та грація залишають незабутнє враження.\"",
+    "text": "\"Ці істоти неймовірні! Їхня сила та грація залишають незабутнє враження.\"",
     "img": "https://i.ibb.co/SXkZQ7V9/S6-person3.jpg",
     "title": "Олена Ковальчук",
     "subtitle": "Мандрівниця, Україна"
   },
   {
     "id": 16,
+    "alt": "S7_contacts",
     "title": "Зв'яжіться з нами",
     "subtitle": "Ми завжди раді відповісти на ваші запитання. Зв'яжіться з нами будь-яким зручним способом.",
-    "contactTitle1": "Електронна пошта",
-    "contactSubtitle1": "daniil12099@gmail.com",
-    "contactTitle2": "Телефон",
-    "contactSubtitle2": "+38 (093) 000-0000",
-    "contactTitle3": "Офіс",
-    "contactSubtitle3": "Вулиця Шевченка, 12, Київ, 0000, Україна",
-    "alt": "S7_contacts",
-    "src": "https://i.ibb.co/QjN88W83/S7-contacts.jpg"
+    "title1": "Електронна пошта",
+    "subtitle1": "daniil12099@gmail.com",
+    "title2": "Телефон",
+    "subtitle2": "+38 (093) 000-0000",
+    "title3": "Офіс",
+    "subtitle3": "Вулиця Шевченка, 12, Київ, 0000, Україна",
+    "img": "https://i.ibb.co/QjN88W83/S7-contacts.jpg"
   }
 ]

@@ -34,7 +34,7 @@ export const Abilities = () => {
                     <img
                         className="abilities-container-img img"
                         alt={abilities.alt}
-                        src={abilities.src}
+                        src={abilities.img}
                     />
                 </div>
             </div>

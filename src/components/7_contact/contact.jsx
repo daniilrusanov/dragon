@@ -40,10 +40,10 @@ export const Contact = () => {
                                 alt="Mail"
                                 src={imgContactMail}
                             />
-                            <h5 className="contact-right-item-row-h5 h5">{contact.contactTitle1}</h5>
+                            <h5 className="contact-right-item-row-h5 h5">{contact.title1}</h5>
                         </div>
                         <span className="contact-right-item-row-text text">
-                            {contact.contactSubtitle1}
+                            {contact.subtitle1}
                         </span>
                     </div>
 
@@ -54,10 +54,10 @@ export const Contact = () => {
                                 alt="Phone"
                                 src={imgContactPhone}
                             />
-                            <h5 className="contact-right-item-row-h5 h5">{contact.contactTitle2}</h5>
+                            <h5 className="contact-right-item-row-h5 h5">{contact.title2}</h5>
                         </div>
                         <span className="contact-right-item-row-text text">
-                            {contact.contactSubtitle2}
+                            {contact.subtitle2}
                         </span>
                     </div>
 
@@ -68,10 +68,10 @@ export const Contact = () => {
                                 alt="Geo"
                                 src={imgContactGeo}
                             />
-                            <h5 className="contact-right-item-row-h5 h5">{contact.contactTitle3}</h5>
+                            <h5 className="contact-right-item-row-h5 h5">{contact.title3}</h5>
                         </div>
                         <span className="contact-right-item-row-text text">
-                            {contact.contactSubtitle3}
+                            {contact.subtitle3}
                         </span>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ export const Contact = () => {
                 <img
                     className="contact-img-photo img"
                     alt={contact.alt}
-                    src={contact.src}
+                    src={contact.img}
                 />
             </div>
         </section>
