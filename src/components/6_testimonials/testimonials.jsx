@@ -33,7 +33,7 @@ export const Testimonials = () => {
         return <div>Loading...</div>;
     }
 
-    const {comment, title, subtitle, img} = testimonials[currentIndex];
+    const {text, title, subtitle, img} = testimonials[currentIndex];
 
     return (
         <section className="testimonials" id="testimonials">
